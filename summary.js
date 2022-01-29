@@ -41,3 +41,28 @@ var microphone = {
   prici: 120,
   color: "black",
 };
+
+var mahiya = { mahi: "hate" };
+// mahiya[mahi] = "agnee 2";
+mahiya.mahi = "love";
+console.log(mahiya);
+
+var smartphone = { brand: "iPhone", model: "13" };
+console.log(smartphone.brand);
+console.log(smartphone["brand"]);
+
+function getReminder(number1, number2) {
+  var result = number1 % number2;
+  return result;
+}
+
+const reminder = getReminder(12, 3);
+
+console.log(reminder);
+
+function addNumber(number1, number2) {
+  return "Result is " + number1 + number2;
+}
+
+var result = addNumber(5, 4);
+// console.log(result);
