@@ -31,3 +31,4 @@ computer["storage"] = "1 Tb";
 
 computer.storage = "5 Tb ";
 console.log(computer);
+

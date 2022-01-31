@@ -29,7 +29,7 @@
 
 function getFactorial2(number) {
   let factorial = 1;
-  for (let i = number; i >= i; i--) {
+  for (let i = number; i >= 1; i--) {
     factorial = factorial * i;
   }
   return factorial;
